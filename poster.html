@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <title>Human Flagship - Poster</title>
+
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- ** Plugins Needed for the Project ** -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <!-- themefy-icon -->
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <style>
+        ul {
+            list-style: circle;
+        }
+    </style>
+
+</head>
+
+<body style="background: rgba(188, 26, 80, 0.04)">
+    <!-- preloader -->
+    <!-- <div class="preloader">
+        <div class="loader">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div> -->
+    <!-- /preloader -->
+
+    <header class="back">
+        <a href="products.html"><img src="images/imgs/back.png"></a>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="mb-4">Product || Human Flagship || Poster</h2>
+                    <img src="images/imgs/poster.png" alt="author" class="img-fluid w-100 mb-4">                    
+                </div>
+            </div>
+            
+        <div class="row button-poster">
+
+            <div class="col-md-6">
+                <p class="poster-btn"><button onclick="showImage();">Click to view Poster!</button></p>
+            </div>
+            <div class="col-md-6">
+                <p class="poster-btn"><button>Buy Now!</button></p>
+            </div>
+            <div class="col-md-12 pic" align="center">
+                <img class="img-responsive pad" src="images/imgs/poster.png" alt="Photo">
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <!-- <footer>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+                        <a href="index.html"><img src="images/logo.png" alt="persa" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+                        <ul class="list-unstyled">
+                            <li class="font-secondary text-dark">Sydney</li>
+                            <li class="font-secondary text-dark">6 rip carl Avenue CA 90733</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+                        <ul class="list-unstyled">
+                            <li class="font-secondary text-dark">Tel: +90 000 333 22</li>
+                            <li class="font-secondary text-dark">Mail: exmaple@ymail.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+                        <span class="font-secondary text-dark mr-3">Follow</span>
+                        <ul class="list-inline d-inline-block">
+                            <li class="list-inline-item"><a href="#" class="text-dark"><i class="ti-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-dark"><i class="ti-twitter-alt"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-dark"><i class="ti-linkedin"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-dark"><i class="ti-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <p>Copyright ©
+                <script>
+                    var CurrentYear = new Date().getFullYear()
+                    document.write(CurrentYear)
+                </script> a theme by themefisher.com</p>
+        </div>
+    </footer> -->
+
+    <!-- jQuery -->
+    <script src="plugins/jQuery/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- slick slider -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <!-- masonry -->
+    <script src="plugins/masonry/masonry.js"></script>
+    <!-- instafeed -->
+    <script src="plugins/instafeed/instafeed.min.js"></script>
+    <!-- smooth scroll -->
+    <script src="plugins/smooth-scroll/smooth-scroll.js"></script>
+    <!-- headroom -->
+    <script src="plugins/headroom/headroom.js"></script>
+    <!-- reading time -->
+    <script src="plugins/reading-time/readingTime.min.js"></script>
+
+    <!-- Main Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(".pic").hide();
+
+    function showImage() {
+        $(".pic").show();
+    }
+    (function($) {
+        $(document).on('contextmenu', 'img', function() {
+            return false;
+        })
+    })(jQuery);
+</script>
+
+
+</body>
+
+</html>
