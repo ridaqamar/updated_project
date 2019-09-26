@@ -859,7 +859,8 @@ blockquote {
   width: 100%;
 }
 
-.slick-slider
+.slick-
+
 {
   position: relative;
   display: block;
@@ -1068,4 +1069,16 @@ blockquote {
   100% {
     width: 100%;
   }
+}
+.customer-logos img{
+  width:150px;
+  margin:0;
+}
+
+.customer-logos{
+
+}
+
+footer p{
+  font-size: 15px;
 }
